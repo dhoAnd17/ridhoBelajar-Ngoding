@@ -1,0 +1,37 @@
+.hello:link{
+    color: orange;
+}
+.hello:visited{
+    color: red;
+}
+.hello:hover{
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+.hello:active{
+    font-style: italic;
+}
+
+li:first-child a {
+    color: green;
+}
+li:last-child a {
+    color: red;
+}
+li:nth-child(3n-1) a { /* contoh bisa odd and even dan perhitungan aritmatik lainnya*/
+    color: yellow;
+}
+li:nth-child(3n-1) a:hover{
+    color: grey;
+}
+p:first-of-type{
+    color: red;
+}
+p:last-of-type {
+    font-size: 20px;
+    background-color: blue;
+}
+p:nth-of-type(1){
+    font-style: italic;
+}

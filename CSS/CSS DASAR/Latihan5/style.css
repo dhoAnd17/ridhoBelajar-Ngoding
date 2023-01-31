@@ -1,0 +1,30 @@
+body{
+    font-family: arial;
+}
+h1,h2 {
+    color: green;
+}
+ul{
+    color: orange;
+}
+ol{
+    color: red;
+}
+ul li a {
+    color: rgb(87, 180, 0);
+}
+ol li a{
+    color: rgb(253, 83, 4);
+}
+#p1{ /* css mencari id dengan nama p1 */
+    color: red;
+}
+.p2{ /* css mencari class dengan nama p2*/
+    color: blue;
+}
+.cetak-tebal{ /* css mencari class dengan cetak tebal*/
+    font-weight: bold;
+}
+p.cetak-tebal{ /* css mencari paragraf dengan class cetak tebal */
+    font-size: 20px;
+}

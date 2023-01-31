@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coba Prefixes</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        .Kiri{
+            float: left;
+        }
+        .Kanan{
+            float: right;
+        }
+        .satu img{
+            -webkit-filter: blur(20px);
+            
+            transition: 1s ease-out; 
+        }
+        .dua img{
+            filter: brightness(.5);
+        }
+        .tiga img{
+            filter: contrast(1.5);
+        }
+        .empat img{
+            filter: saturate(.5);
+        }
+        .lima img{
+            filter: grayscale(0.7);
+        }
+        .enam img{
+            filter: sepia(1);
+        }
+        .tujuh img{
+            filter: hue-rotate(100deg);
+        }
+        .delapan img{
+            filter: invert(0.7);
+        }
+        .sembilan img{
+            filter: opacity(0.3);
+        }
+        .sepuluh img{
+            box-shadow: 0px 20px 10px black;
+        }
+        .satu img:hover{
+            filter: blur(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="Kiri">
+        <div class="satu"><img src="homeee.png"  alt="satu">BLUR</div>
+        <div class="dua"><img src="homeee.png"  alt="dua">Brightness</div>
+        <div class="tiga"><img src="homeee.png"  alt="tiga">Contras</div>
+        <div class="empat"><img src="homeee.png"  alt="empat">Saturate</div>
+        <div class="lima"><img src="homeee.png"  alt="lima">Grayscale</div>
+</div>
+    <div class="Kanan"><div class="enam"><img src="homeee.png"  alt="enam">Sepia</div>
+    <div class="tujuh"><img src="homeee.png"  alt="tujuh">Hue-Rotate</div>
+    <div class="delapan"><img src="homeee.png"  alt="delapan">Invert</div>
+    <div class="sembilan"><img src="homeee.png"  alt="sembilan">Opacity</div>
+    <div class="sepuluh"><img src="homeee.png"  alt="sepuluh">Drop-Shadow</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 900px;
+            border: 5px solid black;
+            margin: auto;
+        }
+        .kotak{
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            line-height: 100px;
+            text-align: center;
+            margin: 5px 0;
+            transition: margin-left 3s, transform 3s 2s, background-color 0.5s 3s;
+        }
+        .container:hover .kotak{
+            transform: rotate(720deg);
+            margin-left: 800px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kotak"></div>
+    </div>
+    
+</body>
+</html>

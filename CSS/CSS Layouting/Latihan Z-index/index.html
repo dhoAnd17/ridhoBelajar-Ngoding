@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latihan Z-Index</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        .satu{
+            background-color: salmon;
+            z-index: 999;
+        }
+        .dua{
+            background-color: lime;
+            margin-top: 100px;
+            margin-left: 100px;
+            z-index: 2;
+        }
+        .tiga{
+            background-color: royalblue;
+            margin-top:200px ;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+</body>
+</html>
